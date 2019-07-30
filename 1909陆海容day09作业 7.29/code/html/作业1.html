@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>农业管理系统</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/作业1.css">
+</head>
+
+<body>
+    <div id="box0">
+        <div class="top">
+            <img src="../images/logo.png" alt="">
+            <div class="hello">
+                <img class="img1" src="../images/head-l.jpg" alt="">
+                <img class="img2" src="../images/dl.png" alt="">
+                <span class="sp1">欢迎您!admin</span>
+                <img class="img3" src="../images/tc.png" alt="">
+                <span class="sp2"><a href="">退出</a></span>
+                <img class="img4" src="../images/head-r.jpg" alt="">
+            </div>
+            <ul>
+                <li><a href=""><img src="../images/n1.png" alt=""><span>数据采集</span></a></li>
+                <li><a href=""><img src="../images/n2.png" alt=""><span>数据展示</span></a></li>
+                <li><a href=""><img src="../images/n3.png" alt=""><span>实验管理</span></a></li>
+                <li><a href=""><img src="../images/n4.png" alt=""><span>数据同步</span></a></li>
+                <li><a href=""><img src="../images/n5.png" alt=""><span>设备管理</span></a></li>
+                <li><a href=""><img src="../images/n6.png" alt=""><span>数据分析</span></a></li>
+                <li style="margin-right: 0"><a href=""><img src="../images/n7.png" alt=""><span>系统管理</span></a></li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <img src="../images/e_01.jpg" alt="">
+                <!-- <p class="p1">设备信息</p> -->
+                <ul>
+                    <li class="li1"><a href="">设备信息</a>
+                        <ul class="ul2">
+                            <li class="li4"><img src="../images/jiao.png"><a href="">所有设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">正常设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">异常设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">共享设备</a></li>
+                        </ul>
+                    </li>
+                    <li class="li2"><a href="">设备接口</a>
+                        <ul class="ul2">
+                            <li class="li4"><img src="../images/jiao.png"><a href="">所有设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">正常设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">异常设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">共享设备</a></li>
+                        </ul>
+                    </li>
+                    <li class="li3"><a href="">集成设备</a>
+                        <ul class="ul2">
+                            <li class="li4"><img src="../images/jiao.png"><a href="">所有设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">正常设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">异常设备</a></li>
+                            <li class="li4"><img src="../images/jiao.png"><a href="">共享设备</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <p class="p2"></p>
+                <p class="p3"></p>
+            </div>
+            <div class="right">
+                <img class="img1" src="../images/sq.png" alt="">
+                <p class="p1"><a class="a1" href="">当前位置>>设备管理>>设备信息>>正常设备</a></p>
+                <div class="search">
+                    <h2><strong>搜索</strong></h2>
+                    <p class="p2"><label class="la1" for="username">设备名称 :</label>
+                        <input class="in1" type="text" name="username" id="username" /></p>
+                    <p class="p2"><label class="la1" for="sea">设备类型 :</label>
+                        <select class="in1" name="sea" id="sea">
+                            <option value="-请选择-">-请选择-</option>
+                            <option value="-请选择-">设备1</option>
+                            <option value="-请选择-">设备2</option>
+                            <option value="-请选择-">设备3</option>
+                        </select>
+                    </p>
+                    <p class="p2">
+                        <input class="in2" type="submit" value="查询" name="username" id="username" /></p>
+                    <img class="img5" src="../images/t.jpg" alt="">
+                </div>
+                <table class="tb1">
+
+                    <tr>
+                        <td class="td1" colspan="9">
+                            <P><img src="../images/tj.jpg">
+
+                                <img src="../images/sc.jpg"></P>
+
+                        </td>
+                        <!-- <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td> -->
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id=""><strong>全选</strong></td>
+                        <td><strong>设备类型</strong></td>
+                        <td><strong>设备名称</strong></td>
+                        <td><strong>设备编号</strong></td>
+                        <td><strong>创建日期</strong></td>
+                        <td><strong>设备状态</strong></td>
+                        <td class="td3"><strong>是否共享</strong></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-2.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-2.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-2.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-1.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>网络视频摄像头</td>
+                        <td>Camera001</td>
+                        <td>2132323</td>
+                        <td>2015/04/25</td>
+                        <td><img src="../images/device-2.png" alt=""></td>
+                        <td class="td3"><img src="../images/share-1.png" alt=""></td>
+
+                    </tr>
+                </table>
+
+                <p class="p7"><strong>共有20条数据，当前第1页</strong></p>
+                <div class="footer">
+                    <a href=""><strong>首页 </a>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <a href=""><strong>下一页</strong></a>
+                    <a href=""><strong>尾页</strong></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

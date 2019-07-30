@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#box0 {
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 90px;
+    background: #7ab5e9;
+    border-bottom: 3px solid #265fa6;
+    overflow: hidden;
+    position: relative;
+}
+
+.top img {
+    width: 424px;
+    height: 50px;
+    margin: 30px 0 0 30px;
+}
+
+.top .hello {
+    float: right;
+    width: 265px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 27px;
+}
+
+.top .hello img,
+span {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.top .hello .img1 {
+    height: 20px;
+    width: 10px;
+}
+
+.top .hello .img2 {
+    height: 15px;
+    width: 15px;
+    margin: 3px 0 0 25px;
+}
+
+.top .hello .img3 {
+    height: 15px;
+    width: 15px;
+    margin: 3px 0 0 15px;
+}
+
+.top .hello .sp1 {
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    color: #6d6d6d;
+    margin-left: 15px;
+}
+
+.top .hello .sp2 a {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    color: #6d6d6d;
+    margin-left: 3px;
+}
+
+.top .hello .img4 {
+    height: 20px;
+    width: 10px;
+    float: right;
+}
+
+.top ul {
+    position: absolute;
+    width: 675px;
+    height: 55px;
+    /* background-color: green; */
+    right: 33px;
+    bottom: 0;
+}
+
+.top ul li {
+    float: left;
+    width: 86px;
+    height: 55px;
+    /* background-color: pink; */
+    margin-right: 12px;
+    position: relative;
+}
+
+.top ul li a {
+    display: block;
+    width: 86px;
+    height: 55px;
+}
+
+.top ul li a img {
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 25px;
+    top: 8px;
+
+}
+
+.top ul li a span {
+    font-size: 14px;
+    height: 14px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 6px;
+    left: 13px;
+}
+
+.top ul li:hover {
+    background: url(../images/libj.png) no-repeat 100%;
+}
+
+
+
+
+.bottom {
+    height: calc(100% - 93px);
+}
+
+.left {
+    float: left;
+    width: 196px;
+    height: 100%;
+    background-color: #417ec8;
+    border-right: 3px solid #265fa6;
+}
+
+
+
+.left ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left ul .li1 {
+    display: block;
+    width: 100%;
+    background: url(../images/left_01.png) no-repeat 15px 10px,
+        url(../images/left_hover.jpg);
+
+}
+
+.left ul .li2 {
+    display: block;
+    width: 100%;
+    background: url(../images/left_02.png) no-repeat 15px 10px,
+        url(../images/left_hover.jpg);
+}
+
+.left ul .li3 {
+    display: block;
+    width: 100%;
+    background: url(../images/left_03.png) no-repeat 15px 10px,
+        url(../images/left_hover.jpg);
+}
+
+.left ul li a {
+    display: block;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: black;
+    margin-left: 40px;
+}
+
+.left ul li .ul2 {
+    display: none;
+}
+
+.left ul li:hover .ul2 {
+    display: block;
+}
+
+.left ul li .li4 {
+    position: relative;
+    height: 32px;
+    background-color: #417ec8;
+    top: 5px;
+}
+
+.left ul li .li4 img {
+    float: left;
+    margin-left: 37px;
+    margin-top: 13px;
+}
+
+.left ul li .li4 a {
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    line-height: 32px;
+    height: 32px;
+    left: 20px;
+}
+
+.left ul li .li4 a:hover {
+    position: absolute;
+    display: block;
+    color: red;
+    font-size: 12px;
+    line-height: 32px;
+    height: 32px;
+    left: 20px;
+}
+
+.right {
+    float: left;
+    height: 100%;
+    width: calc(100% - 199px);
+    position: relative;
+}
+
+.right .img1 {
+    position: absolute;
+    top: 50%;
+    transform: translate(0 -50%);
+}
+
+.right .p1 {
+    height: 25px;
+    margin-left: 15px;
+    display: block;
+    background: url(../images/home.jpg) no-repeat 0 50%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.right .a1 {
+    display: block;
+    color: #636363;
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 15px;
+
+}
+
+.right .search {
+    height: 50px;
+    margin-left: 15px;
+    background: url(../images/seacth.jpg) no-repeat 0 50%;
+}
+
+.right .search h2 {
+    float: left;
+    margin-left: 38px;
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.right .search .p2 {
+    float: left;
+    display: block;
+    height: 50px;
+
+    margin-left: 30px;
+    overflow: hidden;
+
+}
+
+.right .search .p2 .la1 {
+    margin-top: 10px;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.right .search .p2 .in1 {
+    width: 120px;
+    height: 25px;
+    margin-left: 5px;
+    border: 1px solid #DEDEDE;
+}
+
+.right .search .p2 .in2 {
+    width: 60px;
+    height: 22px;
+    margin-top: 14px;
+    border: 1px solid #dedede;
+
+}
+
+.right .search .img5 {
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.right .tb1 {
+    /* width: 1300px; */
+    height: 375px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.right .tb1 tr td {
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.right .tb1 tr {
+    border: 1px solid #ccc;
+}
+
+.right .tb1 tr .td1 p {
+    float: right;
+    margin-right: 36px;
+}
+
+.right .tb1 tr .td1 p a {
+    font-size: 13px;
+}
+
+.right .tb1 tr .td3 {
+    border-right: 1px solid #CCC;
+}
+
+.right .tb1 tr:nth-child(2n) {
+    background-color: #f1f1f1;
+}
+
+.right .p7 {
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+    margin-left: 43px;
+    margin-top: 18px;
+}
+
+.right .footer {
+    float: right;
+    margin-top: 16px;
+    margin-right: 40px;
+}
+
+.right .footer a {
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+}
+
+.right .footer button {
+    width: 20px;
+    height: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #a3a3a3;
+}
+
+.right .footer button:hover {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: #417eb7;
+    border: 1px solid #a3a3a3;
+    cursor: pointer;
+}
