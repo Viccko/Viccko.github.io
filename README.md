@@ -10,4 +10,6 @@
 <a href="https://viccko.github.io/day011%207.30/code/html/%E7%BB%83%E4%B9%A03Android%E6%9C%BA%E5%99%A8%E4%BA%BA.html">练习3</a>
 <br/>
 ## 7.31作业
-<a href="https://viccko.github.io/1909陆海容day09作业%207.31/code/html/作业1.html">搜石网</a>
+<a href="https://viccko.github.io/1909陆海容day09作业%207.31/code/html/作业1.html">搜石网</a><br/>
+## 8.1作业
+<a href="https://viccko.github.io/1909%E9%99%86%E6%B5%B7%E5%AE%B9day09%E4%BD%9C%E4%B8%9A%208.1/code/html/%E4%BD%9C%E4%B8%9A1.html">婚礼纪-弹性盒模型</a>
