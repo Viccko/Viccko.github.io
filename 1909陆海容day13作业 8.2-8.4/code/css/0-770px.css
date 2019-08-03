@@ -1,0 +1,63 @@
+#box0 .main .content {
+    flex-wrap: wrap;
+}
+
+#box0 .header .list1 .li1 {
+    display: block;
+    margin-left: 0;
+
+}
+
+
+#box0 .header .list1 li {
+    display: none;
+
+}
+
+#box0 .header .iconfont {
+    font-family: icon;
+}
+
+#box0 .header .gengduo::after {
+    content: "\f0013";
+}
+
+#box0 .main .content .left {
+    margin-top: 35px;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+
+}
+
+#box0 .main .content .right {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+
+}
+
+#box0 .footer .content {
+    margin: auto;
+    flex-wrap: wrap
+}
+
+#box0 .footer .content ul {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+
+}
+
+#box0 .footer .content .ending {
+    width: 100%;
+}
+
+#box0 .footer .content .ending div {
+    width: 90%;
+    margin: auto;
+}
+
+#box0 .footer .content ul li {
+    width: 100%;
+}

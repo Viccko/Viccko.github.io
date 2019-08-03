@@ -1,0 +1,555 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#box0 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#box0 .content {
+  width: 1141px;
+  margin: auto;
+  height: 100%;
+}
+
+#box0 .header {
+  height: 282px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+#box0 .header .img1 {
+  width: 58px;
+  height: 72px;
+  margin: 61px 0 92px 0;
+}
+
+#box0 .header .list1 {
+  width: 100%;
+  height: 58px;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+}
+
+#box0 .header .list1 .li1 {
+  display: none;
+}
+
+#box0 .header .list1 .li1 img {
+  width: 50%;
+  height: 50%;
+}
+
+#box0 .header .list1 li {
+  float: left;
+  height: 58px;
+  font-size: 12px;
+  line-height: 58px;
+  width: 70px;
+  margin-left: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#box0 .header .list1 li:hover {
+  border-bottom: 2px solid #e67e22;
+  color: #e67e22;
+}
+
+#box0 .main {
+  flex: 1;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#box0 .main .content {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#box0 .main .content .left {
+  margin-top: 35px;
+  width: 66%;
+  height: 100%;
+}
+
+#box0 .main .content .left .article1 {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 35px;
+  padding-bottom: 83px;
+  overflow: hidden;
+}
+
+#box0 .main .content .left .article1 div {
+  width: 91%;
+  margin: auto;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#box0 .main .content .left .article1 div h2 {
+  font-size: 34px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 21px;
+}
+
+#box0 .main .content .left .article1 div a {
+  display: block;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#box0 .main .content .left .article1 div a span {
+  color: #e67e22;
+}
+
+#box0 .main .content .left .article1 div p {
+  color: #444443;
+  font-size: 16px;
+  margin-top: 31px;
+  line-height: 29px;
+}
+
+#box0 .main .content .left .article1 div button {
+  width: 86px;
+  height: 36px;
+  background-color: #e67e22;
+  color: #fff;
+  margin-top: 23px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#box0 .main .content .left .article1 div button:hover {
+  background-color: #3f3f3e;
+}
+
+#box0 .main .content .left .article2 {
+  width: 100%;
+  padding-bottom: 83px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+#box0 .main .content .left .article2 div {
+  width: 91%;
+  margin: auto;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#box0 .main .content .left .article2 div h2 {
+  font-size: 34px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 21px;
+}
+
+#box0 .main .content .left .article2 div a {
+  display: block;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#box0 .main .content .left .article2 div a span {
+  color: #e67e22;
+}
+
+#box0 .main .content .left .article2 div img {
+  width: 100%;
+  height: 300px;
+  margin: 38px 0 23px 0;
+}
+
+#box0 .main .content .left .article2 div p {
+  color: #444443;
+  font-size: 16px;
+  margin-top: 31px;
+  line-height: 29px;
+}
+
+#box0 .main .content .left .article2 div button {
+  width: 86px;
+  height: 36px;
+  background-color: #e67e22;
+  color: #fff;
+  margin-top: 23px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#box0 .main .content .left .article2 div button:hover {
+  background-color: #3f3f3e;
+}
+
+#box0 .main .content .left .article3 {
+  width: 100%;
+  padding-bottom: 83px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+#box0 .main .content .left .article3 div {
+  width: 91%;
+  margin: auto;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#box0 .main .content .left .article3 div h2 {
+  font-size: 34px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 21px;
+}
+
+#box0 .main .content .left .article3 div a {
+  display: block;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #959595;
+}
+
+#box0 .main .content .left .article3 div a span {
+  color: #e67e22;
+}
+
+#box0 .main .content .left .article3 div img {
+  width: 100%;
+  height: 300px;
+  margin: 38px 0 23px 0;
+}
+
+#box0 .main .content .left .article3 div p {
+  color: #444443;
+  font-size: 16px;
+  margin-top: 31px;
+  line-height: 29px;
+}
+
+#box0 .main .content .left .article3 div button {
+  width: 86px;
+  height: 36px;
+  background-color: #e67e22;
+  color: #fff;
+  margin-top: 23px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#box0 .main .content .left .article3 div button:hover {
+  background-color: #3f3f3e;
+}
+
+#box0 .main .content .left .article4 {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+#box0 .main .content .left .article4 div {
+  width: 168px;
+  height: 36px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#box0 .main .content .left .article4 div .bt1 {
+  width: 126px;
+  background-color: #e67e22;
+  color: #fff;
+  font-size: 12px;
+}
+
+#box0 .main .content .left .article4 div .bt2 {
+  width: 35px;
+  background-color: #e67e22;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#box0 .main .content .right {
+  margin-top: 35px;
+  width: 31%;
+  height: 100%;
+}
+
+#box0 .main .content .right .article1 {
+  width: 100%;
+  padding-bottom: 24px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+#box0 .main .content .right .article1 div {
+  width: 83%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#box0 .main .content .right .article1 div a {
+  display: block;
+  height: 39px;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  margin-top: 13px;
+}
+
+#box0 .main .content .right .article1 div a h2 {
+  height: 39px;
+  line-height: 39px;
+  font-size: 19px;
+  width: 90px;
+  border-bottom: 1px solid #e67e22;
+}
+
+#box0 .main .content .right .article1 div span {
+  display: block;
+  font-size: 12px;
+  color: #959595;
+  line-height: 12px;
+  margin-top: 27px;
+}
+
+#box0 .main .content .right .article1 div p {
+  cursor: pointer;
+  font-size: 12px;
+  color: #e67e22;
+  margin-top: 23px;
+}
+
+#box0 .main .content .right .article2 {
+  width: 100%;
+  padding-bottom: 23px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+#box0 .main .content .right .article2 div {
+  width: 83%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#box0 .main .content .right .article2 div a {
+  display: block;
+  height: 39px;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  margin-top: 13px;
+}
+
+#box0 .main .content .right .article2 div a h2 {
+  height: 39px;
+  line-height: 39px;
+  font-size: 19px;
+  width: 90px;
+  border-bottom: 1px solid #e67e22;
+}
+
+#box0 .main .content .right .article2 div button {
+  width: 100%;
+  height: 36px;
+  margin-top: 21px;
+  color: #fff;
+  background-color: #e67e22;
+  cursor: pointer;
+}
+
+#box0 .main .content .right .article2 div button:hover {
+  background-color: #3f3f3e;
+}
+
+#box0 .main .content .right .article3 {
+  width: 100%;
+  padding-bottom: 28px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+#box0 .main .content .right .article3 div {
+  width: 83%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#box0 .main .content .right .article3 div a {
+  display: block;
+  height: 39px;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  margin-top: 13px;
+  margin-bottom: 21px;
+}
+
+#box0 .main .content .right .article3 div a h2 {
+  height: 39px;
+  line-height: 39px;
+  font-size: 19px;
+  width: 90px;
+  border-bottom: 1px solid #e67e22;
+}
+
+#box0 .main .content .right .article3 div span {
+  border: 1px solid #ebebeb;
+  color: #959595;
+  height: 27px;
+  font-size: 13px;
+  line-height: 27px;
+  display: block;
+  float: left;
+  margin-right: 11px;
+  padding: 0 7px 0 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+#box0 .main .content .right .article3 div span:hover {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+#box0 .footer {
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+#box0 .footer .content {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 34px;
+}
+
+#box0 .footer .content ul {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 34px;
+  flex-wrap: wrap;
+}
+
+#box0 .footer .content ul li {
+  width: 26%;
+  padding-bottom: 34px;
+}
+
+#box0 .footer .content ul li div {
+  width: 95%;
+  overflow: hidden;
+}
+
+#box0 .footer .content ul li div a {
+  display: block;
+  height: 39px;
+  width: 100%;
+  border-bottom: 1px solid #959595;
+  margin-top: 13px;
+  margin-bottom: 21px;
+}
+
+#box0 .footer .content ul li div a h2 {
+  height: 39px;
+  line-height: 39px;
+  font-size: 19px;
+  width: 90px;
+  color: #fff;
+  border-bottom: 1px solid #e67e22;
+}
+
+#box0 .footer .content ul li div span {
+  color: #959595;
+  height: 27px;
+  font-size: 13px;
+  line-height: 27px;
+  display: block;
+  float: left;
+  margin-right: 11px;
+  padding: 0 7px 0 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+#box0 .footer .content ul li div span:hover {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+#box0 .footer .content ul li .box2 span {
+  border: 1px solid #303030;
+  color: #959595;
+  height: 27px;
+  font-size: 13px;
+  line-height: 27px;
+  display: block;
+  float: left;
+  margin-right: 11px;
+  padding: 0 7px 0 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+#box0 .footer .content ul li .box2 span:hover {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+#box0 .footer .content .ending {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  border-top: 2px solid #303030;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#box0 .footer .content .ending div {
+  width: 100%;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#box0 .footer .content .ending div span {
+  color: #555555;
+  font-size: 13px;
+  padding: 0 11px 0 11px;
+  line-height: 13px;
+}
