@@ -15,4 +15,4 @@
 ## 8.1作业
 <a href="https://viccko.github.io/1909%E9%99%86%E6%B5%B7%E5%AE%B9day09%E4%BD%9C%E4%B8%9A%208.1/code/html/%E4%BD%9C%E4%B8%9A1.html">婚礼纪-弹性盒模型</a><br/>
 ## 8.2-8.4作业
-<a href="https://viccko.github.io/1909%E9%99%86%E6%B5%B7%E5%AE%B9day09%E4%BD%9C%E4%B8%9A%208.1/code/html/%E4%BD%9C%E4%B8%9A1.html">开源博客</a>
+<a href="https://viccko.github.io/1909陆海容day13作业%208.2-8.4/code/html/作业1.html">开源博客</a>
